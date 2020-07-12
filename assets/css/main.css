@@ -1,0 +1,156 @@
+/*Общее*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 500;
+}
+ul li{
+	display: block;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 500;
+}
+h1, h2, h3 {
+    font-weight: 700;
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+	text-transform: uppercase;
+	font-size: 32px;
+}
+/*Шапка*/
+.header{
+	display: flex;
+	padding: 15px 30px;
+}
+.logo-img{
+	width: 260px;
+}
+.main-menu {
+	margin-left: 550px;
+}
+.menu-menu li{
+	margin: 0 3px;
+	padding: 8px 20px;
+	float: left;
+	background-color: #FFBF00;
+}
+.menu-menu li:hover{
+	background-color: #FF8500;
+}
+.menu-txt{
+	text-transform: uppercase;
+	padding: 20px 0px;
+}
+/*2 секция*/
+.logo-section{
+	margin: 70px auto;
+}
+.logo-section img{
+	display: block;
+	margin: 0 auto;
+}
+/*3 секция*/
+.choose{
+	margin: 0 10px 30px 10px;
+}
+.choose-header h1{
+	color: #1F1AB2;
+}
+.choose-block{
+	display: flex;
+}
+.elem-choose{
+	margin: 0 auto;
+	width: 330px;
+}
+.choose-img{
+	width: 150px;
+	border-radius: 90px;
+	margin: 50px 0;
+	border: 1px solid #C6BDBF;
+	margin: auto;
+}
+.choose-img:hover{
+	border: 1px solid #FF8500;
+}
+.choose-img img{
+	display: block;
+	margin: 0 auto;
+	padding: 50px 50px; 
+	width: 50px;
+}
+.choose-img img:hover{
+	border-radius: 90px;
+	background-color: #FF8500
+}
+.elem-choose{
+	color: #1F1AB2;
+}
+.elem-choose:hover{
+	color: #FF8500
+}
+
+/*4 секция*/
+
+.about{
+	display: flex;
+}
+.about-img{
+	width: 600px;
+	padding: 20px 40px
+}
+
+/*5 секция*/
+
+.products{
+	margin-top: 30px;
+}
+.product{
+	display: flex;
+}
+.img-product{
+	border: 1px solid #C6BDBF;
+	padding: 30px 30px;
+}
+.elem-product{
+	margin: 0 auto
+}
+
+/*6 секция*/
+.food{
+	display: flex;
+	margin: 0 30px;
+}
+.food-txt{
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100px;
+	margin: 0px 10px;
+	padding: 10px 20px;
+	color: #FF8500; 
+	border: 2px solid #FF8500;
+	border-radius: 6px
+}
+.food-txt:hover{
+	background-color: #FF8500;
+	color: #fff;
+}
+/*футер*/
+.author{
+	margin: 50px auto;
+}
+.info{
+	color: #fff;
+	display: block;
+	font-size: 23px;
+	text-align: center;
+}
+.info:hover{
+	color: #FFBF00;
+	transition: 0.5s all;
+}
